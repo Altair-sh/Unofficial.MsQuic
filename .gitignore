@@ -1,0 +1,5 @@
+﻿*.dll
+*.so
+*.so.*
+*.dylib
+*.nupkg

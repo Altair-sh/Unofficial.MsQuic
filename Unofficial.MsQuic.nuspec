@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Unofficial.MsQuic</id>
+        <version>2.4.6</version>
+        <description>Native library for System.Net.Quic. Microsoft implementation of Quic protocol</description>
+        <authors>Microsoft, me</authors>
+        <tags>System.Net.Quic;quic;msquic;native</tags>
+        <projectUrl>https://github.com/microsoft/msquic</projectUrl>
+        <readme>README.md</readme>
+        <repository type="git" url="git://github.com/Altair-sh/Unofficial.MsQuic.git"/>
+
+        <!-- Optional elements -->
+        <!-- ... -->
+    </metadata>
+    <files>
+        <file src="README.md" target="./" />
+        <file src="msquic.dll" target="runtimes/win-x64/native/"/>
+        <file src="libmsquic.so" target="runtimes/linux-x64/native/"/>
+    </files>
+</package>
