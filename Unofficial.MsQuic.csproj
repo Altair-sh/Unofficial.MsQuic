@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>Unofficial.MsQuic</PackageId>
+    <Version>2.4.10</Version>
+    <Description>Native library required for System.Net.Quic</Description>
+    <Authors>Altair-sh</Authors>
+    <PackageTags>quic;msquic;native;windows-10;linux</PackageTags>
+    <PackageProjectUrl>https://github.com/Altair-sh/Unofficial.MsQuic</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludePackageReadmeFile>true</IncludePackageReadmeFile>
+    <RepositoryUrl>git://github.com/Altair-sh/Unofficial.MsQuic.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lib.Harmony" Version="2.3.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="" />
+    <None Include="runtimes\**\*" Pack="true" PackagePath="runtimes\" />
+  </ItemGroup>
+</Project>

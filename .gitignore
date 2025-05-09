@@ -1,5 +1,30 @@
-﻿*.dll
+﻿# Build results
+[Bb]in/
+.bin/
+[Dd]ebug/
+[Rr]elease/
+[Rr]eleases/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+[Pp]ublish/
+
+*.dll
 *.so
 *.so.*
 *.dylib
 *.nupkg
+*.zip
+
+# IDE files
+.vs/
+.vscode/
+.vshistory/
+.idea/
+с/
+.editorconfig
+*.user
+
+#backups
+.old*/
